@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="container">
-            <div id="select-game-mode" class="show">
+            <div id="select-game-mode" class="hide">
                 <div class="text-boxes">
                     <h1>Select Game Mode</h1>
                     <div class="btn-group">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div id="winningMessage"></div>
+            <div id="winningMessage" class="hide"></div>
             <div class="text-boxes">
                 <div class="title">
                     <h1>Tic Tac Toe</h1>
@@ -46,7 +46,15 @@
                 <div class="square" data-current="8"></div>
             </div>
             <div class="btn">
-                <button id="reset">New Game</button>
+                <!-- <button id="reset">New Game</button> -->
+                <div class="btn-group">
+                    <button class="reset computer">
+                        <span class="fa-solid fa-desktop"></span> New game vs Computer
+                    </button>
+                    <button class="reset human" data-opponent="human">
+                        <span class="fa-regular fa-user"></span> New game vs human
+                    </button>
+                </div>
             </div>
         </div>
         <script src="assets/fontawesome-6.3.0/js/all.min.js"></script>

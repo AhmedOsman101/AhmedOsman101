@@ -27,7 +27,7 @@ const initGame = () => {
         square.innerHTML = "";
         square.addEventListener("click", clicking, { once: true });
     });
-    reset.addEventListener("click", resetFunc);
+    // reset.addEventListener("click", resetFunc);
 };
 
 const checkWinner = () => {
