@@ -83,7 +83,7 @@ const showEndMessage = (winner) => {
     winningMessage.innerHTML =
         isDraw == true ? `${winner}` : `Player${winner} won!`;
     winningMessage.style.display = "grid";
-    let clone = reset.cloneNode(true);
+    const clone = reset.cloneNode(true);
     clone.addEventListener("click", resetFunc);
     winningMessage.appendChild(clone);
 };
