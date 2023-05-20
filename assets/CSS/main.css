@@ -115,3 +115,11 @@ button:hover {
         rgba(18, 31, 52, 0.9)
     );
 }
+
+.show{
+    display: grid;
+}
+
+.hide{
+    display: none;
+}

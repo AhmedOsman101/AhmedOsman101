@@ -5,8 +5,7 @@ const selectGameModeBtns = document.querySelector(".btn-group");
 const selectGameMode = document.getElementById("select-game-mode");
 const SGMBcopy = selectGameModeBtns.cloneNode(true);
 const SGMcopy = selectGameMode.cloneNode(true);
-// console.log(SGMcopy);
-// console.log(SGMBcopy);
+let resetBtns = document.querySelectorAll(".reset");
 
 const XElement = `<span class="fa-x"></span>`;
 const OElement = `<span class="fa-o"></span>`;

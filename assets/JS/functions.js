@@ -60,10 +60,8 @@ const showEndMessage = (winner) => {
         isDraw == true ? `${winner}` : `Player${winner} won!`;
     winningMessage.style.display = "grid";
     SGMcopy.style.display = "grid";
-    // const clone = reset.cloneNode(true);
     // clone.addEventListener("click", resetFunc);
     winningMessage.appendChild(SGMcopy);
-
 };
 
 const resetFunc = () => {
