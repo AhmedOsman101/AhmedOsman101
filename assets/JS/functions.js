@@ -23,6 +23,10 @@ const clicking = (e) => {
 
 const initGame = () => {
     displayTurns();
+    mainSGM.classList.remove("hide");
+    mainSGM.classList.add("show");
+    mainSGM.append(SGMBcopy);
+    mainSGMB.classList.add("hide");
     squares.forEach((square) => {
         square.innerHTML = "";
         square.addEventListener("click", clicking, { once: true });
@@ -60,10 +64,6 @@ const showEndMessage = (winner) => {
         isDraw == true ? `${winner}` : `Player${winner} won!`;
     winningMessage.classList.remove("hide");
     winningMessage.classList.add("show");
-    mainSGM.classList.remove("hide");
-    mainSGM.classList.add("show");
-    mainSGM.append(SGMBcopy);
-    mainSGMB.classList.add("hide");
 };
 
 const resetFunc = () => {
