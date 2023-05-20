@@ -1,4 +1,3 @@
-const board = document.getElementById("board");
 const playerTurn = document.getElementById("playerTurn");
 const reset = document.getElementById("reset");
 const squares = document.querySelectorAll(".square");
@@ -7,9 +6,11 @@ const XElement = `<span class="fa-x"></span>`;
 const OElement = `<span class="fa-o"></span>`;
 const newGame = `<button class="reset">New Game</button>`;
 
+let isDraw = false;
 let circleTurn = false; // it's X turn
 let xLocations = [];
 let circleLocations = [];
+
 const winningCombos = [
     [0, 1, 2],
     [3, 4, 5],
@@ -30,6 +31,7 @@ const displayTurns = () => {
 const swapTurns = () => {
     circleTurn = !circleTurn;
 };
+
 const clicking = (e) => {
     const currentSquare = e.target;
     currentSquare.innerHTML = !circleTurn ? XElement : OElement;
@@ -46,9 +48,10 @@ const clicking = (e) => {
 const initGame = () => {
     displayTurns();
     squares.forEach((square) => {
+        square.innerHTML = "";
         square.addEventListener("click", clicking, { once: true });
     });
-    // reset.addEventListener("click", resetFunc);
+    reset.addEventListener("click", resetFunc);
 };
 
 const checkWinner = () => {
@@ -56,9 +59,11 @@ const checkWinner = () => {
         const combo = winningCombos[i];
         if (combo.every((index) => xLocations.includes(index))) {
             playerTurn.innerHTML = `Player ${XElement} won!`;
+            showEndMessage(XElement);
             return;
         } else if (combo.every((index) => circleLocations.includes(index))) {
             playerTurn.innerHTML = `Player ${OElement} won!`;
+            showEndMessage(OElement);
             return;
         }
     }
@@ -67,10 +72,30 @@ const checkWinner = () => {
 
 const checkDraw = () => {
     if (xLocations.length + circleLocations.length == 9) {
+        isDraw = true;
         playerTurn.innerHTML = `It's a draw!`;
+        showEndMessage("It's a draw!");
     }
 };
 
-// functions calls
+const showEndMessage = (winner) => {
+    const winningMessage = document.getElementById("winningMessage");
+    winningMessage.innerHTML =
+        isDraw == true ? `${winner}` : `Player${winner} won!`;
+    winningMessage.style.display = "grid";
+    let clone = reset.cloneNode(true);
+    clone.addEventListener("click", resetFunc);
+    winningMessage.appendChild(clone);
+};
 
+const resetFunc = () => {
+    circleTurn = false;
+    isDraw = false;
+    xLocations = [];
+    circleLocations = [];
+    initGame();
+    winningMessage.style.display = "none";
+};
+
+// call the initGame function to start the game
 initGame();
