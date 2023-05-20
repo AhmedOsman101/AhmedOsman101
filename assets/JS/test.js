@@ -10,7 +10,6 @@ const newGame = `<button class="reset">New Game</button>`;
 let isDraw = false;
 let isWon = false;
 let circleTurn = false; // it's X turn
-let currentTurn = "x"; // it's X turn
 let xLocations = [];
 let circleLocations = [];
 const winningCombos = [
@@ -24,22 +23,24 @@ const winningCombos = [
     [2, 4, 6],
 ];
 
-squares.forEach((square) => {
-    square.addEventListener("click", clicking, { once: true });
-});
-
+const swapTurns = () => {
+    circleTurn = !circleTurn;
+};
 const clicking = (e) => {
     const currentSquare = e.target;
-    console.log(currentSquare);
-    // currentSquare.innerHTML = currentTurn == "x" ? XElement : OElement;
+    currentSquare.innerHTML = !circleTurn ? XElement : OElement;
     if (circleTurn) {
         xLocations.push(Number(e.target.getAttribute("data-current")));
     } else {
         circleLocations.push(Number(e.target.getAttribute("data-current")));
     }
-    // displayTurns();
+    swapTurns();
     // checkWinner();
 };
+
+squares.forEach((square) => {
+    square.addEventListener("click", clicking, { once: true });
+});
 
 // functions calls
 // reset.addEventListener("click", resetFunc);

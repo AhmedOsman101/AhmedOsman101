@@ -22,6 +22,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 250ms ease-out;
 }
 
 .container {
@@ -67,7 +68,6 @@ div.title {
     border: none;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
     background-color: var(--btn-color);
-    transition: all 250ms ease-out;
 }
 
 #reset:hover,
