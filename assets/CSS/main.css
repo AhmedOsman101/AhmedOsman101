@@ -101,7 +101,6 @@ button:hover {
 
 #winningMessage,
 #select-game-mode {
-    display: none;
     place-items: center;
     place-content: center;
     gap: 2rem;
