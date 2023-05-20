@@ -23,6 +23,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     transition: all 250ms ease-out;
+    text-align: center;
 }
 
 .container {
@@ -59,7 +60,7 @@ div.title {
     cursor: pointer;
 }
 
-#reset,
+button,
 .reset {
     cursor: pointer;
     font-size: 1.5rem;
@@ -70,8 +71,7 @@ div.title {
     background-color: var(--btn-color);
 }
 
-#reset:hover,
-.reset:hover {
+button:hover {
     background-color: var(--navy-color);
     transform: translateY(-0.25rem);
 }
@@ -99,7 +99,8 @@ div.title {
     cursor: auto;
 }
 
-#winningMessage {
+#winningMessage,
+#select-game-mode {
     display: none;
     place-items: center;
     place-content: center;
