@@ -116,10 +116,10 @@ button:hover {
     );
 }
 
-.show{
+.show {
     display: grid;
 }
 
-.hide{
+.hide {
     display: none;
 }
