@@ -58,10 +58,12 @@ const showEndMessage = (winner) => {
     const winningMessage = document.getElementById("winningMessage");
     winningMessage.innerHTML =
         isDraw == true ? `${winner}` : `Player${winner} won!`;
-    winningMessage.style.display = "grid";
-    SGMcopy.style.display = "grid";
-    // clone.addEventListener("click", resetFunc);
-    winningMessage.appendChild(SGMcopy);
+    winningMessage.classList.remove("hide");
+    winningMessage.classList.add("show");
+    mainSGM.classList.remove("hide");
+    mainSGM.classList.add("show");
+    mainSGM.append(SGMBcopy);
+    mainSGMB.classList.add("hide");
 };
 
 const resetFunc = () => {

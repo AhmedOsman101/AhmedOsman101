@@ -14,25 +14,14 @@
     <body>
         <div class="container">
             <div id="select-game-mode" class="hide">
+                <div id="winningMessage" class="hide"></div>
                 <div class="text-boxes">
-                    <h1>Select Game Mode</h1>
-                    <div class="btn-group">
-                        <button class="reset computer">
-                            <span class="fa-computer"></span> New game vs
-                            Computer
-                        </button>
-                        <button class="reset human" data-opponent="human">
-                            <span class="fa-user"></span> New game vs human
-                        </button>
-                    </div>
+                    <h1>select game mode</h1>
                 </div>
             </div>
-            <div id="winningMessage" class="hide"></div>
-            <div class="text-boxes">
-                <div class="title">
-                    <h1>Tic Tac Toe</h1>
-                    <h3 id="playerTurn"></h3>
-                </div>
+            <div class="title">
+                <h1>Tic Tac Toe</h1>
+                <h3 id="playerTurn"></h3>
             </div>
             <div id="board">
                 <div class="square" data-current="0"></div>
@@ -45,14 +34,20 @@
                 <div class="square" data-current="7"></div>
                 <div class="square" data-current="8"></div>
             </div>
-            <div class="btn">
-                <!-- <button id="reset">New Game</button> -->
+            <div class="main-btn">
                 <div class="btn-group">
                     <button class="reset computer">
-                        <span class="fa-solid fa-desktop"></span> New game vs Computer
+                        <span class="fa-solid fa-desktop"></span> New game vs
+                        Computer
                     </button>
                     <button class="reset human" data-opponent="human">
-                        <span class="fa-regular fa-user"></span> New game vs human
+                        <span class="fa-regular fa-user"></span> New game vs
+                        human
+                    </button>
+                    <br />
+                    <button class="reset human" data-opponent="random">
+                        <span class="fa-solid fa-shuffle"></span> random new
+                        game
                     </button>
                 </div>
             </div>

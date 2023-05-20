@@ -24,6 +24,7 @@ body {
     box-sizing: border-box;
     transition: all 250ms ease-out;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .container {
@@ -104,8 +105,8 @@ button:hover {
     cursor: auto;
 }
 
-#winningMessage,
 #select-game-mode {
+    /* display: grid; */
     place-items: center;
     place-content: center;
     gap: 2rem;
@@ -113,6 +114,9 @@ button:hover {
     width: 100vw;
     height: 100vh;
     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background: linear-gradient(
         to bottom,
         rgba(20, 20, 29, 0.9),
@@ -120,10 +124,22 @@ button:hover {
     );
 }
 
+#select-game-mode {
+    font-size: 2rem;
+}
+#winningMessage {
+    background: none;
+    font-size: 4rem;
+}
 .show {
     display: grid;
 }
 
 .hide {
     display: none;
+}
+
+.text-boxes {
+    display: grid;
+    gap: 1rem;
 }

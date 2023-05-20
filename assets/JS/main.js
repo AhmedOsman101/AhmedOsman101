@@ -1,10 +1,9 @@
 const playerTurn = document.getElementById("playerTurn");
-const reset = document.getElementById("reset");
 const squares = document.querySelectorAll(".square");
-const selectGameModeBtns = document.querySelector(".btn-group");
-const selectGameMode = document.getElementById("select-game-mode");
-const SGMBcopy = selectGameModeBtns.cloneNode(true);
-const SGMcopy = selectGameMode.cloneNode(true);
+const mainSGMB = document.querySelector(".main-btn .btn-group"); // the first button
+const mainSGM = document.querySelector("#select-game-mode"); // the SGM div
+const subSGMB = document.querySelector("#select-game-mode .btn-group");
+const SGMBcopy = mainSGMB.cloneNode(true);
 let resetBtns = document.querySelectorAll(".reset");
 
 const XElement = `<span class="fa-x"></span>`;
