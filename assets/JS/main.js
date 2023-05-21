@@ -16,7 +16,9 @@ let isDraw = false;
 let xLocations = [];
 let circleLocations = [];
 let playerXscore = 0;
+let computerXscore = 0;
 let playerOscore = 0;
+let computerOscore = 0;
 
 const winningCombos = [
     [0, 1, 2],

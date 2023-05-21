@@ -1,8 +1,6 @@
 const initBtns = () => {
     resetBtns.forEach((resetBtn) => {
-        if (resetBtn.classList.contains("human")) {
-            resetBtn.addEventListener("click", StartFirstGame);
-        }
+        resetBtn.addEventListener("click", StartFirstGame);
     });
 };
 
