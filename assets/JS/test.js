@@ -25,6 +25,7 @@ const clicking = (e) => {
 
 const initGame = () => {
     displayTurns();
+    randomNumber = Math.floor(Math.random() * 3);
     initBtns();
     // gameReset.classList.add("hide");
     squares.forEach((square) => {
@@ -50,7 +51,7 @@ const initBtns = () => {
         } else if (resetBtn.getAttribute("data-opponent") === "computer") {
             // resetBtn.addEventListener("click", resetFunc);
             resetBtn.addEventListener("click", GameVsComputer);
-        } else {
+        } else if (resetBtn.getAttribute("data-opponent") === "random") {
             // resetBtn.addEventListener("click", resetFunc);
             resetBtn.addEventListener("click", RandomGame);
         }
@@ -65,4 +66,7 @@ const GameVsComputer = () => {
 
 const RandomGame = () => {
     console.log("Random Game");
+    randomNumber = Math.floor(Math.random() * 3);
+    console.log(randomNumber);
+    resetBtns[randomNumber].click();
 };

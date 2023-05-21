@@ -142,6 +142,8 @@ svg {
 #winningMessage {
     background: none;
     font-size: 4rem;
+    display: flex;
+    gap: 2rem;
 }
 .show {
     display: grid;
@@ -169,7 +171,6 @@ svg {
 }
 
 .main-btn .btn-group button {
-    /* font-size: 1rem; */
     display: flex;
     align-items: center;
     width: max-content;

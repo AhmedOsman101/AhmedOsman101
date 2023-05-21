@@ -9,51 +9,6 @@ const swapTurns = () => {
 
 const getCurrentData = (e) => Number(e.target.getAttribute("data-current"));
 
-// const initBtns = () => {
-//     resetBtns.forEach((resetBtn) => {
-//         if (resetBtn.classList.contains("human")) {
-//             resetBtn.addEventListener("click", resetFunc);
-//             resetBtn.addEventListener("click", resetFunc);
-//         }
-//     });
-// };
-
-// const StartFirstGame = () => {
-//     if (isFirstGame) {
-//         isFirstGame = false;
-//         SGM.classList.replace("hide", "show");
-//     } else {
-//         StartNewGame();
-//     }
-//     initGame();
-// };
-
-// const StartNewGame = () => {
-//     SGM.classList.replace("show", "hide");
-// };
-
-// const clicking = (e) => {
-//     const currentSquare = e.target;
-//     currentSquare.innerHTML = !circleTurn ? XElement : OElement;
-//     const currentData = getCurrentData(e);
-//     (!circleTurn ? xLocations : circleLocations).push(currentData);
-//     swapTurns();
-//     displayTurns();
-//     checkWinner();
-// };
-
-// const initGame = () => {
-//     displayTurns();
-//     gameReset.classList.add("hide");
-//     resetBtns.forEach((resetBtn) => {
-//         resetBtn.addEventListener("click", resetFunc);
-//     });
-//     squares.forEach((square) => {
-//         square.innerHTML = "";
-//         square.addEventListener("click", clicking, { once: true });
-//     });
-// };
-
 const checkWinner = () => {
     for (const combo of winningCombos) {
         if (combo.every((index) => xLocations.includes(index))) {
@@ -86,12 +41,3 @@ const showEndMessage = (winner) => {
     winningMessage.classList.replace("hide", "show");
     winningMessage.innerHTML = isDraw ? winner : `Player ${winner} won!`;
 };
-
-// const resetFunc = () => {
-//     circleTurn = false;
-//     isDraw = false;
-//     xLocations = [];
-//     circleLocations = [];
-//     initGame();
-//     winningMessage.style.display = "none";
-// };

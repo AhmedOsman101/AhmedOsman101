@@ -9,6 +9,7 @@ const SGMBtns = document.querySelector("#select-game-mode #SGMBtns"); // the SGM
 const winningMessage = document.getElementById("winningMessage"); // the winningMessage
 const selectSide = document.querySelector("#selectSide"); // the SelectSide div
 const gameReset = document.querySelector(".main-btn"); // the bottom button
+let randomNumber = Math.floor(Math.random() * 3);
 
 const XElement = `<span class="fa-x"></span>`;
 const OElement = `<span class="fa-o"></span>`;
