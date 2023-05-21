@@ -1,5 +1,6 @@
 const displayTurns = () => {
     playerTurn.innerHTML = `Player ${!circleTurn ? XElement : OElement}'S turn`;
+    displayScore.innerHTML = `${XElement}: ${playerXscore} - ${playerOscore} :${OElement}`;
 };
 
 const swapTurns = () => {
@@ -8,37 +9,62 @@ const swapTurns = () => {
 
 const getCurrentData = (e) => Number(e.target.getAttribute("data-current"));
 
-const clicking = (e) => {
-    const currentSquare = e.target;
-    currentSquare.innerHTML = !circleTurn ? XElement : OElement;
-    const currentData = getCurrentData(e);
-    (!circleTurn ? xLocations : circleLocations).push(currentData);
-    swapTurns();
-    displayTurns();
-    checkWinner();
-};
+// const initBtns = () => {
+//     resetBtns.forEach((resetBtn) => {
+//         if (resetBtn.classList.contains("human")) {
+//             resetBtn.addEventListener("click", resetFunc);
+//             resetBtn.addEventListener("click", resetFunc);
+//         }
+//     });
+// };
 
-const initGame = () => {
-    displayTurns();
-    mainSGM.classList.replace("show", "hide");
-    mainSGM.append(SGMBcopy);
-    mainSGMB.classList.add("hide");
-    resetBtns.forEach((resetBtn) => {
-        resetBtn.addEventListener("click", resetFunc);
-    });
-    squares.forEach((square) => {
-        square.innerHTML = "";
-        square.addEventListener("click", clicking, { once: true });
-    });
-};
+// const StartFirstGame = () => {
+//     if (isFirstGame) {
+//         isFirstGame = false;
+//         SGM.classList.replace("hide", "show");
+//     } else {
+//         StartNewGame();
+//     }
+//     initGame();
+// };
+
+// const StartNewGame = () => {
+//     SGM.classList.replace("show", "hide");
+// };
+
+// const clicking = (e) => {
+//     const currentSquare = e.target;
+//     currentSquare.innerHTML = !circleTurn ? XElement : OElement;
+//     const currentData = getCurrentData(e);
+//     (!circleTurn ? xLocations : circleLocations).push(currentData);
+//     swapTurns();
+//     displayTurns();
+//     checkWinner();
+// };
+
+// const initGame = () => {
+//     displayTurns();
+//     gameReset.classList.add("hide");
+//     resetBtns.forEach((resetBtn) => {
+//         resetBtn.addEventListener("click", resetFunc);
+//     });
+//     squares.forEach((square) => {
+//         square.innerHTML = "";
+//         square.addEventListener("click", clicking, { once: true });
+//     });
+// };
 
 const checkWinner = () => {
     for (const combo of winningCombos) {
         if (combo.every((index) => xLocations.includes(index))) {
-            showEndMessage(XElement);
+            playerXscore++;
+            displayTurns();
+            setTimeout(showEndMessage, 2000, XElement);
             return;
         } else if (combo.every((index) => circleLocations.includes(index))) {
-            showEndMessage(OElement);
+            playerOscore++;
+            displayTurns();
+            setTimeout(showEndMessage, 2000, OElement);
             return;
         }
     }
@@ -48,29 +74,24 @@ const checkWinner = () => {
 const checkDraw = () => {
     if (xLocations.length + circleLocations.length === 9) {
         isDraw = true;
-        showEndMessage("It's a draw!");
+        playerXscore += 0.5;
+        playerOscore += 0.5;
+        displayTurns();
+        setTimeout(showEndMessage, 2000, "It's a draw!");
     }
 };
 
 const showEndMessage = (winner) => {
-    const winningMessage = document.getElementById("winningMessage");
+    SGM.classList.replace("hide", "show");
     winningMessage.innerHTML = isDraw ? winner : `Player ${winner} won!`;
     winningMessage.classList.replace("hide", "show");
-    mainSGM.classList.replace("hide", "show");
-    mainSGM.append(SGMBcopy);
-    // mainSGMB.classList.add("hide");
 };
 
-const resetFunc = () => {
-    if (isFirstGame) {
-        initGame();
-        isFirstGame = false;
-    } else {
-        circleTurn = false;
-        isDraw = false;
-        xLocations = [];
-        circleLocations = [];
-        initGame();
-        winningMessage.style.display = "none";
-    }
-};
+// const resetFunc = () => {
+//     circleTurn = false;
+//     isDraw = false;
+//     xLocations = [];
+//     circleLocations = [];
+//     initGame();
+//     winningMessage.style.display = "none";
+// };

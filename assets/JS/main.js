@@ -1,20 +1,22 @@
 const playerTurn = document.getElementById("playerTurn");
 const squares = document.querySelectorAll(".square");
+const displayScore = document.getElementById("displayScore");
 let resetBtns = document.querySelectorAll(".reset");
 
-const mainSGMB = document.querySelector(".main-btn .btn-group"); // the first button
-const mainSGM = document.querySelector("#select-game-mode"); // the SGM div
-const subSGMB = document.querySelector("#select-game-mode .btn-group");
+const SGM = document.querySelector("#select-game-mode"); // the SGM div
+const winningMessage = document.getElementById("winningMessage");
+const selectSideBtn = document.querySelector("#select-game-mode .btn-group"); // the SGM div Btns
+const gameReset = document.querySelector(".main-btn"); // the bottom button
 
-const SGMBcopy = mainSGMB.cloneNode(true);
 const XElement = `<span class="fa-x"></span>`;
 const OElement = `<span class="fa-o"></span>`;
-
-let isDraw = false;
+let isFirstGame = true;
 let circleTurn = false; // it's X turn
+let isDraw = false;
 let xLocations = [];
 let circleLocations = [];
-let isFirstGame = true;
+let playerXscore = 0;
+let playerOscore = 0;
 
 const winningCombos = [
     [0, 1, 2],
@@ -28,4 +30,4 @@ const winningCombos = [
 ];
 
 // call the initGame function to start the game
-initGame();
+StartFirstGame();
