@@ -72,16 +72,15 @@ button {
     background-color: var(--btn-color);
 }
 
-svg {
-    display: inline-block;
-    margin-right: 0.5rem;
-}
-
 button:hover {
     background-color: var(--navy-color);
     transform: translateY(-0.25rem);
 }
 
+svg {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
 .square:has(span) {
     cursor: not-allowed;
 }

@@ -1,5 +1,5 @@
 const displayTurns = () => {
-    playerTurn.innerHTML = `Player ${!circleTurn ? XElement : OElement}'s turn`;
+    playerTurn.innerHTML = `Player ${!circleTurn ? XElement : OElement}'S turn`;
 };
 
 const swapTurns = () => {
@@ -20,9 +20,12 @@ const clicking = (e) => {
 
 const initGame = () => {
     displayTurns();
-    mainSGM.classList.replace("hide", "show");
+    mainSGM.classList.replace("show", "hide");
     mainSGM.append(SGMBcopy);
     mainSGMB.classList.add("hide");
+    resetBtns.forEach((resetBtn) => {
+        resetBtn.addEventListener("click", resetFunc);
+    });
     squares.forEach((square) => {
         square.innerHTML = "";
         square.addEventListener("click", clicking, { once: true });
@@ -53,13 +56,21 @@ const showEndMessage = (winner) => {
     const winningMessage = document.getElementById("winningMessage");
     winningMessage.innerHTML = isDraw ? winner : `Player ${winner} won!`;
     winningMessage.classList.replace("hide", "show");
+    mainSGM.classList.replace("hide", "show");
+    mainSGM.append(SGMBcopy);
+    // mainSGMB.classList.add("hide");
 };
 
 const resetFunc = () => {
-    circleTurn = false;
-    isDraw = false;
-    xLocations = [];
-    circleLocations = [];
-    initGame();
-    winningMessage.style.display = "none";
+    if (isFirstGame) {
+        initGame();
+        isFirstGame = false;
+    } else {
+        circleTurn = false;
+        isDraw = false;
+        xLocations = [];
+        circleLocations = [];
+        initGame();
+        winningMessage.style.display = "none";
+    }
 };

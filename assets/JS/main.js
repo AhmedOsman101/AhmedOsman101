@@ -1,19 +1,20 @@
 const playerTurn = document.getElementById("playerTurn");
 const squares = document.querySelectorAll(".square");
+let resetBtns = document.querySelectorAll(".reset");
+
 const mainSGMB = document.querySelector(".main-btn .btn-group"); // the first button
 const mainSGM = document.querySelector("#select-game-mode"); // the SGM div
 const subSGMB = document.querySelector("#select-game-mode .btn-group");
-const SGMBcopy = mainSGMB.cloneNode(true);
-let resetBtns = document.querySelectorAll(".reset");
 
+const SGMBcopy = mainSGMB.cloneNode(true);
 const XElement = `<span class="fa-x"></span>`;
 const OElement = `<span class="fa-o"></span>`;
-const newGame = `<button class="reset">New Game</button>`;
 
 let isDraw = false;
 let circleTurn = false; // it's X turn
 let xLocations = [];
 let circleLocations = [];
+let isFirstGame = true;
 
 const winningCombos = [
     [0, 1, 2],
