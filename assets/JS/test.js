@@ -26,7 +26,7 @@ const clicking = (e) => {
 const initGame = () => {
     displayTurns();
     initBtns();
-    gameReset.classList.add("hide");
+    // gameReset.classList.add("hide");
     squares.forEach((square) => {
         square.innerHTML = "";
         square.addEventListener("click", clicking, { once: true });
@@ -39,6 +39,7 @@ const resetFunc = () => {
     xLocations = [];
     circleLocations = [];
     initGame();
+    gameReset.classList.replace("hide", "show");
 };
 
 const initBtns = () => {
@@ -46,12 +47,22 @@ const initBtns = () => {
         if (resetBtn.classList.contains("human")) {
             resetBtn.addEventListener("click", resetFunc);
             resetBtn.addEventListener("click", StartFirstGame);
+        } else if (resetBtn.getAttribute("data-opponent") === "computer") {
+            // resetBtn.addEventListener("click", resetFunc);
+            resetBtn.addEventListener("click", GameVsComputer);
         } else {
+            // resetBtn.addEventListener("click", resetFunc);
+            resetBtn.addEventListener("click", RandomGame);
         }
     });
 };
 
 const GameVsComputer = () => {
-    selectSide.classList.replace("show", "hide");
+    SGMBtns.classList.replace("show", "hide");
+    selectSide.classList.replace("hide", "show");
     // initGame();
+};
+
+const RandomGame = () => {
+    console.log("Random Game");
 };

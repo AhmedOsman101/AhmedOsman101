@@ -18,18 +18,18 @@
                 <div class="text-boxes">
                     <h1>Select game mode</h1>
                 </div>
-                <div class="btn-group show">
-                    <button class="reset computer">
-                        <span class="fa-solid fa-desktop"></span> New game vs
-                        Computer
+                <div class="btn-group show" id="SGMBtns">
+                    <button class="reset computer" data-opponent="computer">
+                        <span class="fa-solid fa-desktop"></span>
+                        <h4>player vs computer</h4>
                     </button>
                     <button class="reset human" data-opponent="human">
-                        <span class="fa-regular fa-user"></span> New game vs
-                        human
+                        <span class="fa-regular fa-user"></span>
+                        <h4>player vs player</h4>
                     </button>
                     <button class="reset random" data-opponent="random">
-                        <span class="fa-solid fa-shuffle"></span> Random new
-                        game
+                        <span class="fa-solid fa-shuffle"></span>
+                        <h4>Random game</h4>
                     </button>
                 </div>
                 <div id="selectSide" class="hide">
@@ -62,19 +62,29 @@
             </div>
             <div class="main-btn hide">
                 <div class="btn-group">
-                    <button class="reset computer">
-                        <span class="fa-solid fa-desktop"></span> New game vs
-                        Computer
+                    <button class="reset computer" data-opponent="computer">
+                        <span class="fa-solid fa-desktop"></span>
+                        <h4>player vs computer</h4>
                     </button>
                     <button class="reset human" data-opponent="human">
-                        <span class="fa-regular fa-user"></span> New game vs
-                        human
+                        <span class="fa-regular fa-user"></span>
+                        <h4>player vs player</h4>
                     </button>
-                    <br />
                     <button class="reset random" data-opponent="random">
-                        <span class="fa-solid fa-shuffle"></span> Random new
-                        game
+                        <span class="fa-solid fa-shuffle"></span>
+                        <h4>Random game</h4>
                     </button>
+                </div>
+                <div id="selectSide" class="hide">
+                    <h3>select your side</h3>
+                    <div class="btn-group">
+                        <button data-side="x">
+                            <span class="fa-x"></span>
+                        </button>
+                        <button data-side="o">
+                            <span class="fa-o"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -5,6 +5,7 @@ let resetBtns = document.querySelectorAll(".reset");
 
 const selectSideBtn = document.querySelector("[data-side]");
 const SGM = document.querySelector("#select-game-mode"); // the SGM div
+const SGMBtns = document.querySelector("#select-game-mode #SGMBtns"); // the SGM div buttons
 const winningMessage = document.getElementById("winningMessage"); // the winningMessage
 const selectSide = document.querySelector("#selectSide"); // the SelectSide div
 const gameReset = document.querySelector(".main-btn"); // the bottom button
