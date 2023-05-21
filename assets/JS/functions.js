@@ -1,21 +1,18 @@
 const displayTurns = () => {
-    playerTurn.innerHTML = !circleTurn
-        ? `Player ${XElement}'s turn`
-        : `Player ${OElement}'s turn`;
+    playerTurn.innerHTML = `Player ${!circleTurn ? XElement : OElement}'s turn`;
 };
 
 const swapTurns = () => {
     circleTurn = !circleTurn;
 };
 
+const getCurrentData = (e) => Number(e.target.getAttribute("data-current"));
+
 const clicking = (e) => {
     const currentSquare = e.target;
     currentSquare.innerHTML = !circleTurn ? XElement : OElement;
-    if (!circleTurn) {
-        xLocations.push(Number(e.target.getAttribute("data-current")));
-    } else {
-        circleLocations.push(Number(e.target.getAttribute("data-current")));
-    }
+    const currentData = getCurrentData(e);
+    (!circleTurn ? xLocations : circleLocations).push(currentData);
     swapTurns();
     displayTurns();
     checkWinner();
@@ -23,26 +20,21 @@ const clicking = (e) => {
 
 const initGame = () => {
     displayTurns();
-    mainSGM.classList.remove("hide");
-    mainSGM.classList.add("show");
+    mainSGM.classList.replace("hide", "show");
     mainSGM.append(SGMBcopy);
     mainSGMB.classList.add("hide");
     squares.forEach((square) => {
         square.innerHTML = "";
         square.addEventListener("click", clicking, { once: true });
     });
-    // reset.addEventListener("click", resetFunc);
 };
 
 const checkWinner = () => {
-    for (let i = 0; i < winningCombos.length; i++) {
-        const combo = winningCombos[i];
+    for (const combo of winningCombos) {
         if (combo.every((index) => xLocations.includes(index))) {
-            playerTurn.innerHTML = `Player ${XElement} won!`;
             showEndMessage(XElement);
             return;
         } else if (combo.every((index) => circleLocations.includes(index))) {
-            playerTurn.innerHTML = `Player ${OElement} won!`;
             showEndMessage(OElement);
             return;
         }
@@ -51,19 +43,16 @@ const checkWinner = () => {
 };
 
 const checkDraw = () => {
-    if (xLocations.length + circleLocations.length == 9) {
+    if (xLocations.length + circleLocations.length === 9) {
         isDraw = true;
-        playerTurn.innerHTML = `It's a draw!`;
         showEndMessage("It's a draw!");
     }
 };
 
 const showEndMessage = (winner) => {
     const winningMessage = document.getElementById("winningMessage");
-    winningMessage.innerHTML =
-        isDraw == true ? `${winner}` : `Player${winner} won!`;
-    winningMessage.classList.remove("hide");
-    winningMessage.classList.add("show");
+    winningMessage.innerHTML = isDraw ? winner : `Player ${winner} won!`;
+    winningMessage.classList.replace("hide", "show");
 };
 
 const resetFunc = () => {
