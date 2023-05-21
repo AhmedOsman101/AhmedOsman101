@@ -3,9 +3,10 @@ const squares = document.querySelectorAll(".square");
 const displayScore = document.getElementById("displayScore");
 let resetBtns = document.querySelectorAll(".reset");
 
+const selectSideBtn = document.querySelector("[data-side]");
 const SGM = document.querySelector("#select-game-mode"); // the SGM div
-const winningMessage = document.getElementById("winningMessage");
-const selectSideBtn = document.querySelector("#select-game-mode .btn-group"); // the SGM div Btns
+const winningMessage = document.getElementById("winningMessage"); // the winningMessage
+const selectSide = document.querySelector("#selectSide"); // the SelectSide div
 const gameReset = document.querySelector(".main-btn"); // the bottom button
 
 const XElement = `<span class="fa-x"></span>`;

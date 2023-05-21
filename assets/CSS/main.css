@@ -142,3 +142,6 @@ svg {
     display: grid;
     gap: 1rem;
 }
+[data-side] {
+    padding: 1rem 3rem;
+}

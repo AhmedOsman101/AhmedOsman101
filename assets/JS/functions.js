@@ -59,12 +59,12 @@ const checkWinner = () => {
         if (combo.every((index) => xLocations.includes(index))) {
             playerXscore++;
             displayTurns();
-            setTimeout(showEndMessage, 2000, XElement);
+            setTimeout(showEndMessage, 100, XElement);
             return;
         } else if (combo.every((index) => circleLocations.includes(index))) {
             playerOscore++;
             displayTurns();
-            setTimeout(showEndMessage, 2000, OElement);
+            setTimeout(showEndMessage, 100, OElement);
             return;
         }
     }
@@ -77,14 +77,14 @@ const checkDraw = () => {
         playerXscore += 0.5;
         playerOscore += 0.5;
         displayTurns();
-        setTimeout(showEndMessage, 2000, "It's a draw!");
+        setTimeout(showEndMessage, 100, "It's a draw!");
     }
 };
 
 const showEndMessage = (winner) => {
     SGM.classList.replace("hide", "show");
-    winningMessage.innerHTML = isDraw ? winner : `Player ${winner} won!`;
     winningMessage.classList.replace("hide", "show");
+    winningMessage.innerHTML = isDraw ? winner : `Player ${winner} won!`;
 };
 
 // const resetFunc = () => {
