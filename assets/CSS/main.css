@@ -92,6 +92,9 @@ button:hover {
 svg {
     display: inline-block;
     margin-right: 0.5rem;
+    /* font-size: inherit;
+    width: 1rem;
+    aspect-ratio: 1/1; */
 }
 
 .square:has(span) {
@@ -175,7 +178,7 @@ svg {
     align-items: center;
     width: max-content;
 }
-.main-btn .btn-group button h4{
+.main-btn .btn-group button h4 {
     display: inline-block;
     width: 100%;
 }
