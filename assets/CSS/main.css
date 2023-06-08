@@ -1,184 +1,184 @@
 :root {
-    --dark-color: #121818;
-    --white-color: #e4dddd;
-    --navy-color: #121f34;
-    --btn-color: #13274a;
+	--dark-color: #121818;
+	--white-color: #e4dddd;
+	--navy-color: #121f34;
+	--btn-color: #13274a;
 }
 
 @font-face {
-    font-family: "Cairo", sans-serif;
-    src: url("/assets/fonts/Cairo-VariableFont_slnt\,wght.ttf");
+	font-family: "Cairo", sans-serif;
+	src: url("/assets/fonts/Cairo-VariableFont_slnt\,wght.ttf");
 }
 
 body {
-    display: grid;
-    place-items: center;
-    background-color: var(--dark-color);
-    overflow: hidden;
+	display: grid;
+	place-items: center;
+	background-color: var(--dark-color);
+	overflow: hidden;
 }
 
 * {
-    font-family: "Cairo", sans-serif;
-    color: var(--white-color);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 250ms ease-out;
-    text-align: center;
-    text-transform: capitalize;
+	font-family: "Cairo", sans-serif;
+	color: var(--white-color);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 250ms ease-out;
+	text-align: center;
+	text-transform: capitalize;
 }
 
 .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    place-items: center;
-    place-content: center;
-    gap: 1.5rem;
-    padding: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: grid;
+	place-items: center;
+	place-content: center;
+	gap: 1.5rem;
+	padding: 2rem;
 }
 
 div.title {
-    display: grid;
-    place-items: center;
-    gap: 1rem;
-    place-content: center;
+	display: grid;
+	place-items: center;
+	gap: 1rem;
+	place-content: center;
 }
 
 #board {
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    aspect-ratio: 1/1;
-    border: 1px solid var(--white-color);
-    box-sizing: content-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	aspect-ratio: 1/1;
+	border: 1px solid var(--white-color);
+	box-sizing: content-box;
 }
 
 .square {
-    width: calc(300px / 3);
-    border: 1px solid var(--white-color);
-    aspect-ratio: 1/1;
-    display: grid;
-    place-items: center;
-    cursor: pointer;
+	width: calc(300px / 3);
+	border: 1px solid var(--white-color);
+	aspect-ratio: 1/1;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
 }
 
 button {
-    cursor: pointer;
-    font-size: 1.3rem;
-    padding: 0.7rem;
-    margin: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    border: none;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
-    background-color: var(--btn-color);
+	cursor: pointer;
+	font-size: 1.3rem;
+	padding: 0.7rem;
+	margin: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	border: none;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+	background-color: var(--btn-color);
 }
 
 button:hover {
-    background-color: var(--navy-color);
-    transform: translateY(-0.25rem);
+	background-color: var(--navy-color);
+	transform: translateY(-0.25rem);
 }
 
 #SGMBtns {
-    place-content: center;
-    place-items: center;
-    gap: 1rem;
+	place-content: center;
+	place-items: center;
+	gap: 1rem;
 }
 #SGMBtns button {
-    display: flex;
+	display: flex;
 }
 svg {
-    display: inline-block;
-    margin-right: 0.5rem;
-    /* font-size: inherit;
+	display: inline-block;
+	margin-right: 0.5rem;
+	/* font-size: inherit;
     width: 1rem;
     aspect-ratio: 1/1; */
 }
 
 .square:has(span) {
-    cursor: not-allowed;
+	cursor: not-allowed;
 }
 
 .square .fa-o,
 .square .fa-x {
-    font-size: calc(100px * 0.8);
+	font-size: calc(100px * 0.8);
 }
 
 .fa-x {
-    color: #09c372;
+	color: #09c372;
 }
 
 .fa-o {
-    color: #498afb;
+	color: #498afb;
 }
 
 #playerTurn .fa-o,
 #playerTurn .fa-x {
-    font-size: inherit;
-    cursor: auto;
+	font-size: inherit;
+	cursor: auto;
 }
 
 #select-game-mode {
-    /* display: grid; */
-    place-items: center;
-    place-content: center;
-    gap: 2rem;
-    font-size: 4rem;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: linear-gradient(
-        to bottom,
-        rgba(20, 20, 29, 0.9),
-        rgba(18, 31, 52, 0.9)
-    );
+	/* display: grid; */
+	place-items: center;
+	place-content: center;
+	gap: 2rem;
+	font-size: 4rem;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: linear-gradient(
+		to bottom,
+		rgba(20, 20, 29, 0.9),
+		rgba(18, 31, 52, 0.9)
+	);
 }
 
 #select-game-mode {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 #winningMessage {
-    background: none;
-    font-size: 4rem;
-    display: flex;
-    gap: 2rem;
+	background: none;
+	font-size: 4rem;
+	display: flex;
+	gap: 2rem;
 }
 .show {
-    display: grid;
+	display: grid;
 }
 
 .hide {
-    display: none;
+	display: none;
 }
 
 .text-boxes {
-    display: grid;
-    gap: 1rem;
+	display: grid;
+	gap: 1rem;
 }
 
 #selectSide {
-    gap: 1rem;
+	gap: 1rem;
 }
 
 [data-side] {
-    padding: 1rem 3rem;
+	padding: 1rem 3rem;
 }
 
 .main-btn .btn-group {
-    display: flex;
+	display: flex;
 }
 
 .main-btn .btn-group button {
-    display: flex;
-    align-items: center;
-    width: max-content;
+	display: flex;
+	align-items: center;
+	width: max-content;
 }
 .main-btn .btn-group button h4 {
-    display: inline-block;
-    width: 100%;
+	display: inline-block;
+	width: 100%;
 }
