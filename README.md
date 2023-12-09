@@ -1,4 +1,4 @@
-"# Ahmad Ali Othman
+# Ahmad Ali Othman
 
 - 📍 al-Hay al-sades, Nasr City - Cairo, Egypt
 - 📞 01069210742
@@ -41,4 +41,3 @@ Diploma in Applied Technology, Expected Graduation: 2024
 
 - Classical Arabic (Native)
 - English (Fluent)
-"
