@@ -1,9 +1,9 @@
 # Ahmad Ali Othman
 
-- 📍 al-Hay al-sades, Nasr City - Cairo, Egypt
-- 📞 01069210742
+- 📍 Al Hay As Sades, Nasr City, Cairo, Egypt
+- 📞 +20 106 921 0742
 - 📧 trollingosman101@outlook.com
-- 💻 Github
+- 💻 Github: https://github.com/AhmedOsman101
 
 ## Objective
 
@@ -32,10 +32,11 @@ Diploma in Applied Technology, Expected Graduation: 2024
 - Python (Basic), HackerRank
 - Problem Solving (Basic), HackerRank
 - 12-Levels English Course, Continue Academy
+- Cybersecurity Fundamentals, IBM SkillsBuild
 - Getting started as a freelancer (Upwork), Mahara-Tech
 - Learn HTML & CSS, Mahara-Tech
-- Cybersecurity Fundamentals, IBM SkillsBuild
 - Python Programming Basics, Mahara-Tech
+- Freelancing Basics, Mahara-Tech
 
 ## Languages
 
