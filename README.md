@@ -10,7 +10,7 @@
 - **Phone Number:** +20 1069210742
 - **Email:** [trollingosman101@outlook.com](mailto:trollingosman101@outlook.com)
 - **GitHub:** [https://github.com/AhmedOsman101](https://github.com/AhmedOsman101)
-- **LinkedIn:** [placeholder](#)
+- **LinkedIn:** [https://www.linkedin.com/in/ahmed-ali-othman-5b503324a](https://www.linkedin.com/in/ahmed-ali-othman-5b503324a)
 - **WhatsApp:** [placeholder](#)
 
 ---
