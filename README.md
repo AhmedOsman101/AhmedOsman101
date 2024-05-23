@@ -1,44 +1,87 @@
 # Ahmad Ali Othman
 
-- 📍 Al Hay As Sades, Nasr City, Cairo, Egypt
-- 📞 +20 106 921 0742
-- 📧 trollingosman101@outlook.com
-- 💻 Github: https://github.com/AhmedOsman101
+**Job Title:** Full Stack Developer (Laravel Framework)
 
-## Objective
+---
 
-Aspiring backend developer with a strong foundation in PHP (Laravel), Node.js (Express), and a broad range of programming languages and frameworks. Looking to apply my knowledge of HTML, CSS, JavaScript, Python, algorithms and data structures, React.js, MySQL, Bootstrap, Git & Github, and Jasmine.js in a challenging and progressive environment.
+## Contact Information
+
+- **Address:** Al-Hay Al-Sades, Nasr City - Cairo, Egypt
+- **Phone Number:** +20 1069210742
+- **Email:** [trollingosman101@outlook.com](mailto:trollingosman101@outlook.com)
+- **GitHub:** [https://github.com/AhmedOsman101](https://github.com/AhmedOsman101)
+- **LinkedIn:** [placeholder](#)
+- **WhatsApp:** [placeholder](#)
+
+---
 
 ## Education
 
-**WE School for Applied Technology, Nasr City**
-Diploma in Applied Technology, Expected Graduation: 2024
+- **WE School for Applied Technology, Nasr City**  
+  *Expected Graduation:* 2024  
+  *Diploma in Applied Technology*
+
+---
 
 ## Skills
 
-- PHP (Laravel)
-- Node.js (Express)
-- HTML, CSS, JavaScript
-- Python
-- Algorithms and Data Structures
-- React.js
-- MySQL
-- Bootstrap
-- Git & Github
-- Jasmine.js
+### Frontend Development
+- **HTML5**
+- **CSS**: TailwindCss, Bootstrap
+- **JavaScript**: React (JSX, TSX), Vue, Jōtai (state management library for React), Typescript, JasmineJs
 
-## Certifications
+### Backend Development
+- **NodeJs**: Express, Sequalize ORM, Bcrypt
+- **PHP**: Laravel (Livewire, Breeze, Jetstream, Filament, Inertia)
 
-- Python (Basic), HackerRank
-- Problem Solving (Basic), HackerRank
-- 12-Levels English Course, Continue Academy
-- Cybersecurity Fundamentals, IBM SkillsBuild
-- Getting started as a freelancer (Upwork), Mahara-Tech
-- Learn HTML & CSS, Mahara-Tech
-- Python Programming Basics, Mahara-Tech
-- Freelancing Basics, Mahara-Tech
+### Databases
+- **MongoDb**
+- **MySQL**
+- **SQL**
+
+### General Skills
+- Data Structures and Algorithms
+- Object-Oriented Programming (OOP)
+- Design Patterns
+- JSON
+- REST APIs
+- Powershell Scripting
+- Bash Scripting
+
+### Version Control
+- **Git & GitHub**: CLI proficiency
+
+---
+
+## Certificates
+
+- [Python (Basic) - HackerRank](#)
+- [Problem Solving (Basic) - HackerRank](#)
+- [12-Levels English Course - Continue Academy](#)
+- [Getting Started as a Freelancer (Upwork) - Mahara-Tech](#)
+- [Learn HTML & CSS - Mahara-Tech](#)
+- [Cybersecurity Fundamentals - IBM SkillsBuild](#)
+- [Python Programming Basics - Mahara-Tech](#)
+
+---
 
 ## Languages
 
-- Classical Arabic (Native)
-- English (Fluent)
+- **Arabic**: Native (Classical Arabic writer and speaker)
+- **English**: Proficient
+
+---
+
+## Projects
+
+*(Include a brief description of notable projects here)*
+
+---
+
+## Additional Information
+
+*(Add any other relevant information, such as internships, workshops, or extracurricular activities here)*
+
+---
+
+*Note: This is a Markdown formatted resume for use on GitHub or similar platforms. Placeholder links should be replaced with actual URLs where applicable.*
