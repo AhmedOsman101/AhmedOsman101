@@ -82,6 +82,4 @@
 
 *(Add any other relevant information, such as internships, workshops, or extracurricular activities here)*
 
----
 
-*Note: This is a Markdown formatted resume for use on GitHub or similar platforms. Placeholder links should be replaced with actual URLs where applicable.*
