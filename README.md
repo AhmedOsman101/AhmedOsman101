@@ -17,7 +17,7 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 - **Email:** [trollingosman101@outlook.com](mailto:trollingosman101@outlook.com)
 - **GitHub:** [https://github.com/AhmedOsman101](https://github.com/AhmedOsman101)
 - **LinkedIn:** [https://www.linkedin.com/in/ahmed-ali-othman-5b503324a](https://www.linkedin.com/in/ahmed-ali-othman-5b503324a)
-- **WhatsApp:** [placeholder](#)
+- **WhatsApp:** [https://wa.me/201069210742](https://wa.me/201069210742)
 
 ---
 
