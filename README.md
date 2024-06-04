@@ -13,7 +13,7 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 ## Contact Information
 
 - **Address:** Al-Hay Al-Sades, Nasr City - Cairo, Egypt
-- **Phone Number:** +20 1069210742
+- **Phone Number:** [+20 106 921 0742](+20 106 921 0742)
 - **Email:** [trollingosman101@outlook.com](mailto:trollingosman101@outlook.com)
 - **GitHub:** [https://github.com/AhmedOsman101](https://github.com/AhmedOsman101)
 - **LinkedIn:** [https://www.linkedin.com/in/ahmed-ali-othman-5b503324a](https://www.linkedin.com/in/ahmed-ali-othman-5b503324a)
@@ -23,8 +23,7 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 
 ## Education
 
-- **WE School for Applied Technology, Nasr City**  
-  *Expected Graduation:* 2024  
+- **WE School for Applied Technology, Nasr City** (graduated 2024)
   *Diploma in Applied Technology*
 
 ---
@@ -61,8 +60,9 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 
 ## Certificates
 
-- [Python (Basic) - HackerRank](#)
-- [Problem Solving (Basic) - HackerRank](#)
+- [Python (Basic) - HackerRank](https://www.hackerrank.com/certificates/d4c867f6386c)
+- [CSS (Basic) - HackerRank](https://www.hackerrank.com/certificates/f78c00888d0f)
+- [Problem Solving (Basic) - HackerRank](https://www.hackerrank.com/certificates/c7ab7d3eea2a)
 - [12-Levels English Course - Continue Academy](#)
 - [Getting Started as a Freelancer (Upwork) - Mahara-Tech](#)
 - [Learn HTML & CSS - Mahara-Tech](#)
