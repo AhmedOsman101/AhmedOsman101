@@ -23,7 +23,8 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 
 ## Education
 
-- **WE School for Applied Technology, Nasr City** (graduated 2024)
+- **WE School for Applied Technology, Nasr City**
+  *(graduated 2024)*
   *Diploma in Applied Technology*
 
 ---
