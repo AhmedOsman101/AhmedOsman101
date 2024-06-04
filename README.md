@@ -13,7 +13,7 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 ## Contact Information
 
 - **Address:** Al-Hay Al-Sades, Nasr City - Cairo, Egypt
-- **Phone Number:** [+20 106 921 0742](+20 106 921 0742)
+- **Phone Number:** +20 106 921 0742
 - **Email:** [trollingosman101@outlook.com](mailto:trollingosman101@outlook.com)
 - **GitHub:** [https://github.com/AhmedOsman101](https://github.com/AhmedOsman101)
 - **LinkedIn:** [https://www.linkedin.com/in/ahmed-ali-othman-5b503324a](https://www.linkedin.com/in/ahmed-ali-othman-5b503324a)
