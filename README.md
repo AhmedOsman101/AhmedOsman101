@@ -43,6 +43,7 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 ### Databases
 - **MongoDb**
 - **MySQL**
+- **SQLite**
 - **SQL**
 
 ### General Skills
