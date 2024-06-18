@@ -1,6 +1,6 @@
 # Ahmad Ali Othman
 
-**Job Title:** Full Stack Developer (Laravel Framework)
+**Job Title:** Full Stack Developer
 
 ---
 
