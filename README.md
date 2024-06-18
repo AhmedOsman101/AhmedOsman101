@@ -82,7 +82,61 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 
 ## Projects
 
-*(Include a brief description of notable projects here)*
+### Team Projects
+
+**MetroMart E-Commerce Website**
+- **Role:** Main Contributor
+- **Technologies:** React, Context API, Node.js, Sequelize ORM, Tailwind CSS
+- **Description:** Developed the majority of the frontend logic and state management with custom hooks and the Context API. Implemented the product details page and handled backend migrations using Sequelize ORM. Also contributed to minor frontend design fixes.
+- **Source Code:** [GitHub](https://github.com/YassenMohamedRashad/Metromart)
+
+**StudentClub Time Management Website**
+- **Role:** Main Contributor
+- **Technologies:** Laravel, Livewire, Blade Template, Tailwind CSS
+- **Description:** Fully developed the backend and database using Laravel, and implemented the majority of frontend logic using Livewire and Blade templates. Created main layout and two pages, and integrated all components. Features include a Pomodoro page, leaderboard, team creation and management, profile editing, todo list, and calendar with email reminders.
+- **Source Code:** [GitHub](https://github.com/AhmedOsman101/StudentClub)
+
+**Recycle Charity Website**
+- **Role:** Main Contributor
+- **Technologies:** HTML, CSS, JavaScript
+- **Description:** Developed two pages and fixed major bugs and defects. Played a significant role in the overall development of this charity website aimed at facilitating donations and raising awareness. Features include user sign-up and various informational sections.
+- **Source Code:** [GitHub](https://github.com/1amir-talaat/Recycle-Website)
+
+### Individual Projects
+
+**Tic-Tac-Toe Game**
+- **Technologies:** React
+- **Description:** Developed a Tic-Tac-Toe game with two modes: player vs. player and player vs. AI. The AI has two difficulty levels: beginner and hardcore (using the Minimax algorithm with alpha-beta pruning).
+- **Live Preview:** [Play Here](https://ahmedosman101.github.io/TicTacToe-React/)
+- **Source Code:** [GitHub](https://github.com/AhmedOsman101/TicTacToe-React)
+
+**Memory Game**
+- **Technologies:** React, TypeScript
+- **Description:** Created a simple memory game to practice TypeScript with React. Features a grid of cards that flip on matching and includes a progress bar.
+- **Live Preview:** [Play Here](https://ahmedosman101.github.io/MemoryGameTS/)
+- **Source Code:** [GitHub](https://github.com/AhmedOsman101/MemoryGameTS)
+
+**Reaction Time Game**
+- **Technologies:** Vue 3 Composition API
+- **Description:** Developed a reaction time game as an introduction to the Vue 3 Composition API. Measures and rates the player's reaction time.
+- **Live Preview:** [Play Here](https://ahmedosman101.github.io/ReactionTimeGame/)
+- **Source Code:** [GitHub](https://github.com/AhmedOsman101/ReactionTimeGame)
+
+**College Tournament Management System**
+- **Technologies:** Laravel, Jetstream, Filament, Tailwind CSS
+- **Description:** Created a website to manage college tournaments, including sections for viewing and filtering tournaments, profile editing, and an admin dashboard with CRUD operations.
+- **Source Code:** [GitHub](https://github.com/AhmedOsman101/TaskTwo/)
+
+**Berimbolo-Security Company Website**
+- **Technologies:** React, Tailwind CSS
+- **Description:** Developed a website for a security company with sections for hero, pricing, FAQs, about, and contact.
+- **Live Preview:** [View Here](https://ahmedosman101.github.io/Unit_6_Task_Two/)
+- **Source Code:** [GitHub](https://github.com/AhmedOsman101/Unit_6_Task_Two/)
+
+**Dern-Support IT Technical Support Website**
+- **Technologies:** Laravel, Livewire, Filament, Tailwind CSS
+- **Description:** Developed a full-stack solution for an IT support company. Features include user registration and login, request management, service exploration, and an admin panel for managing services, categories, requests, and users.
+- **Source Code:** [GitHub](https://github.com/AhmedOsman101/Unit_25_Task_Two)
 
 ---
 
