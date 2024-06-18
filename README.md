@@ -65,6 +65,7 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 - [Python (Basic) - HackerRank](https://www.hackerrank.com/certificates/d4c867f6386c)
 - [CSS (Basic) - HackerRank](https://www.hackerrank.com/certificates/f78c00888d0f)
 - [Problem Solving (Basic) - HackerRank](https://www.hackerrank.com/certificates/c7ab7d3eea2a)
+- Typescript Fundamentals - Mahara-Tech
 - 12-Levels English Course - Continue Academy
 - Getting Started as a Freelancer (Upwork) - Mahara-Tech
 - Freelancing Basics - Mahara-Tech
