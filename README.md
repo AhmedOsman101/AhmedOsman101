@@ -85,6 +85,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ## Volunteering Experience
 
 *Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (December 2023)*
+
 **Ready for Tomorrow Program**
 - Participated in a transformative four-day program that integrated life skills training with entrepreneurship education.
 - Developed essential skills such as communication and problem-solving.
