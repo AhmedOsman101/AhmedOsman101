@@ -34,7 +34,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ### Frontend Development
 - **HTML5**
 - **CSS**: [TailwindCss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/)
-- **JavaScript**: [React](https://react.dev/) (JSX, TSX), [Vue](https://vuejs.org/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [Typescript](https://www.typescriptlang.org/), [JasmineJs](https://jasmine.github.io/)
+- **JavaScript**: [React](https://react.dev/) (JSX, TSX), [Vue](https://vuejs.org/), [Alpine](https://alpinejs.dev/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [Typescript](https://www.typescriptlang.org/), [JasmineJs](https://jasmine.github.io/)
 
 ### Backend Development
 -  [**NodeJs**](https://nodejs.org/en): [Express](https://expressjs.com/), [Sequelize ORM](https://sequelize.org/)
@@ -51,6 +51,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 - Object-Oriented Programming (OOP)
 - Design Patterns
 - JSON
+- XML
 - REST APIs
 - **[Powershell Scripting](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4)**
 - **[Bash Scripting](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#What-is-Bash_003f)**
