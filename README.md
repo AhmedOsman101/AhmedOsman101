@@ -32,19 +32,19 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ## Skills
 
 ### Frontend Development
-- **[HTML5]** (https://developer.mozilla.org/en-US/docs/Web/HTML) 
-- **CSS**: TailwindCss, Bootstrap
-- **JavaScript**: React (JSX, TSX), Vue, Pinia, Jōtai, Typescript, JasmineJs
+- **HTML5**
+- **CSS**: [TailwindCss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/)
+- **JavaScript**: [React](https://react.dev/) (JSX, TSX), [Vue](https://vuejs.org/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [Typescript](https://www.typescriptlang.org/), [JasmineJs](https://jasmine.github.io/)
 
 ### Backend Development
-- **NodeJs**: Express, Sequalize ORM, Bcrypt
-- **PHP**: Laravel (Livewire, Breeze, Jetstream, Filament, Inertia)
+-  [**NodeJs**](https://nodejs.org/en): [Express](https://expressjs.com/), [Sequelize ORM](https://sequelize.org/)
+- **PHP**: [Laravel](https://laravel.com/) [Livewire](https://livewire.laravel.com/), [Breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze), [Jetstream](https://jetstream.laravel.com/), [Inertia](https://inertiajs.com/), [Sanctum](https://laravel.com/docs/11.x/sanctum), [Filament](https://filamentphp.com/) 
 
 ### Databases
-- **MongoDb**
-- **MySQL**
-- **SQLite**
-- **SQL**
+- [**MongoDb**](https://www.mongodb.com)
+- [**MySQL**](https://www.mysql.com/)
+- **[SQLite](https://sqlite.org/)**
+- [**SQL**](https://en.m.wikipedia.org/wiki/SQL)
 
 ### General Skills
 - Data Structures and Algorithms
@@ -52,11 +52,11 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 - Design Patterns
 - JSON
 - REST APIs
-- Powershell Scripting
-- Bash Scripting
+- **[Powershell Scripting](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4)**
+- **[Bash Scripting](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#What-is-Bash_003f)**
 
 ### Version Control
-- **Git & GitHub**: CLI proficiency
+- **Git & GitHub**
 
 ---
 
