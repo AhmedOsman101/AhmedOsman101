@@ -62,17 +62,18 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 
 ## Certificates
 
-- [Python (Basic) - HackerRank](https://www.hackerrank.com/certificates/d4c867f6386c)
-- [CSS (Basic) - HackerRank](https://www.hackerrank.com/certificates/f78c00888d0f)
-- [Problem Solving (Basic) - HackerRank](https://www.hackerrank.com/certificates/c7ab7d3eea2a)
-- Typescript Fundamentals - Mahara-Tech
-- 12-Levels English Course - Continue Academy
-- Getting Started as a Freelancer (Upwork) - Mahara-Tech
-- Freelancing Basics - Mahara-Tech
-- Building Web Applications using PHP & MySQL - Mahara-Tech
-- Learn HTML & CSS - Mahara-Tech
-- Cybersecurity Fundamentals - IBM SkillsBuild
-- Python Programming Basics - Mahara-Tech
+ 
+- Building Web Applications using PHP & MySQL - Mahara-Tech (Acquired: June 2024)
+- [CSS (Basic) - HackerRank](https://www.hackerrank.com/certificates/f78c00888d0f) (Acquired: June 2024)
+- Typescript Fundamentals - Mahara-Tech (Acquired: April 2024)
+- 12-Levels English Course - Continue Academy (Acquired: October 2023)
+- [Python (Basic) - HackerRank](https://www.hackerrank.com/certificates/d4c867f6386c) (Acquired: November 2023)
+- [Problem Solving (Basic) - HackerRank](https://www.hackerrank.com/certificates/c7ab7d3eea2a)(Acquired: November 2023)
+- Getting Started as a Freelancer (Upwork) - Mahara-Tech (Acquired: June 2022) 
+- Learn HTML & CSS - Mahara-Tech (Acquired: June 2022)
+- Cybersecurity Fundamentals - IBM SkillsBuild (Acquired: November 2022)
+- Freelancing Basics - Mahara-Tech (Acquired: May 2022)
+- Python Programming Basics - Mahara-Tech (Acquired: April 2022)
 
 ---
 
