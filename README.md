@@ -1,6 +1,6 @@
 # Ahmad Ali Othman
 
-**Job Title:** Full Stack Developer
+**Job Title:** Full-Stack Developer
 
 ---
 
@@ -138,5 +138,5 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 
 **Dern-Support IT Technical Support Website**
 - **Technologies:** Laravel, Livewire, Filament, Tailwind CSS
-- **Description:** Developed a full-stack solution for an IT support company. Features include user registration and login, request management, service exploration, and an admin panel for managing services, categories, requests, and users.
+- **Description:** Developed a full-stack solution for an IT support company. Features include user registration and login, request management, service exploration, and an admin panel for managing services, categories, requests, and users. This Website is a part of Task 2 in BTEC International Level 3 IT Pearson Set Assignment Unit 25 (Full-Stack Development).
 - **Source Code:** [GitHub](https://github.com/AhmedOsman101/Unit_25_Task_Two)
