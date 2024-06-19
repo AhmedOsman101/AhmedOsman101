@@ -32,7 +32,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ## Skills
 
 ### Frontend Development
-- [**HTML5**] (https://developer.mozilla.org/en-US/docs/Web/HTML) 
+- **[HTML5]** (https://developer.mozilla.org/en-US/docs/Web/HTML) 
 - **CSS**: TailwindCss, Bootstrap
 - **JavaScript**: React (JSX, TSX), Vue, Pinia, Jōtai, Typescript, JasmineJs
 
