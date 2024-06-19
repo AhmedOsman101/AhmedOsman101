@@ -127,12 +127,12 @@ Aspiring Full Stack Developer with a strong foundation in Laravel and JavaScript
 
 **College Tournament Management System**
 - **Technologies:** Laravel, Jetstream, Filament, Tailwind CSS
-- **Description:** Created a website to manage college tournaments, including sections for viewing and filtering tournaments, profile editing, and an admin dashboard with CRUD operations.
+- **Description:** Created a website to manage college tournaments, including sections for viewing and filtering tournaments, profile editing, and an admin dashboard with CRUD operations. This Website was a part of Task 2 in BTEC International Level 3 IT Pearson Set Assignment Unit 4 (Programming). 
 - **Source Code:** [GitHub](https://github.com/AhmedOsman101/TaskTwo/)
 
 **Berimbolo-Security Company Website**
 - **Technologies:** React, Tailwind CSS
-- **Description:** Developed a website for a security company with sections for hero, pricing, FAQs, about, and contact.
+- **Description:** Developed a website for a security company with sections for hero, pricing, FAQs, about, and contact. This Website was a part of Activity 4 in BTEC International Level 3 IT Pearson Set Assignment Unit 6 (Frontend Development).
 - **Live Preview:** [View Here](https://ahmedosman101.github.io/Unit_6_Task_Two/)
 - **Source Code:** [GitHub](https://github.com/AhmedOsman101/Unit_6_Task_Two/)
 
