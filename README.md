@@ -34,7 +34,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ### Frontend Development
 - **HTML5**
 - **CSS**: TailwindCss, Bootstrap
-- **JavaScript**: React (JSX, TSX), Vue, Jōtai (state management library for React), Typescript, JasmineJs
+- **JavaScript**: React (JSX, TSX), Vue, Pinia, Jōtai, Typescript, JasmineJs
 
 ### Backend Development
 - **NodeJs**: Express, Sequalize ORM, Bcrypt
