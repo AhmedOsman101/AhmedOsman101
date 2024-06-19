@@ -68,7 +68,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 - Typescript Fundamentals - Mahara-Tech (Acquired: April 2024)
 - 12-Levels English Course - Continue Academy (Acquired: October 2023)
 - [Python (Basic) - HackerRank](https://www.hackerrank.com/certificates/d4c867f6386c) (Acquired: November 2023)
-- [Problem Solving (Basic) - HackerRank](https://www.hackerrank.com/certificates/c7ab7d3eea2a)(Acquired: November 2023)
+- [Problem Solving (Basic) - HackerRank](https://www.hackerrank.com/certificates/c7ab7d3eea2a) (Acquired: November 2023)
 - Getting Started as a Freelancer (Upwork) - Mahara-Tech (Acquired: June 2022) 
 - Learn HTML & CSS - Mahara-Tech (Acquired: June 2022)
 - Cybersecurity Fundamentals - IBM SkillsBuild (Acquired: November 2022)
