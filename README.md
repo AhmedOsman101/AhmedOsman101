@@ -127,7 +127,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ### Individual Projects
 
 **Tic-Tac-Toe Game**
-- **Technologies:** React and React Router
+- **Technologies:** React, React Router
 - **Description:** Developed a Tic-Tac-Toe game with two modes: player vs. player and player vs. AI. The AI has two difficulty levels: beginner and hardcore (using the Minimax algorithm with alpha-beta pruning).
 - **Live Preview:** [Play Here](https://ahmedosman101.github.io/TicTacToe-React/)
 - **Source Code:** [GitHub](https://github.com/AhmedOsman101/TicTacToe-React)
