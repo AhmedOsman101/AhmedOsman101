@@ -53,15 +53,13 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 - Data Structures and Algorithms
 - Object-Oriented Programming (OOP)
 - Design Patterns
-- JSON
-- XML
+- JSON, XML
 - RESTful APIs
 - **[Powershell Scripting](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4)**
 - **[Bash Scripting](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#What-is-Bash_003f)**
 
 ### Version Control
-- **Git** 
-- **GitHub**
+- **Git**, **GitHub**
 
 ---
 
