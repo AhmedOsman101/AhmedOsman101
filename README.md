@@ -114,7 +114,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 
 **StudentClub Time Management Website**
 - **Role:** Main Contributor
-- **Technologies:** Laravel, Livewire, Blade Template, Tailwind CSS
+- **Technologies:** Laravel, Jetstream, Livewire, Blade Template, Bootstrap
 - **Description:** Fully developed the backend and database using Laravel, and implemented the majority of frontend logic using Livewire and Blade templates. Created main layout and two pages, and integrated all components. Features include a Pomodoro page, leaderboard, team creation and management, profile editing, todo list, and calendar with email reminders.
 - **Source Code:** [GitHub](https://github.com/AhmedOsman101/StudentClub)
 
@@ -127,7 +127,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ### Individual Projects
 
 **Tic-Tac-Toe Game**
-- **Technologies:** React
+- **Technologies:** React and React Router
 - **Description:** Developed a Tic-Tac-Toe game with two modes: player vs. player and player vs. AI. The AI has two difficulty levels: beginner and hardcore (using the Minimax algorithm with alpha-beta pruning).
 - **Live Preview:** [Play Here](https://ahmedosman101.github.io/TicTacToe-React/)
 - **Source Code:** [GitHub](https://github.com/AhmedOsman101/TicTacToe-React)
