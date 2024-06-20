@@ -38,7 +38,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 
 ### Backend Development
 -  [**NodeJs**](https://nodejs.org/en): [Express](https://expressjs.com/), [Sequelize ORM](https://sequelize.org/)
-- **PHP**: [Laravel](https://laravel.com/) [Livewire](https://livewire.laravel.com/), [Breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze), [Jetstream](https://jetstream.laravel.com/), [Inertia](https://inertiajs.com/), [Sanctum](https://laravel.com/docs/11.x/sanctum), [Filament](https://filamentphp.com/) 
+- **PHP**: [Laravel](https://laravel.com/), [Livewire](https://livewire.laravel.com/), [Breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze), [Jetstream](https://jetstream.laravel.com/), [Inertia](https://inertiajs.com/), [Sanctum](https://laravel.com/docs/11.x/sanctum), [Filament](https://filamentphp.com/) 
 
 ### Databases
 - [**MongoDb**](https://www.mongodb.com)
