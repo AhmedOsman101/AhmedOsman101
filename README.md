@@ -71,17 +71,18 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 
 ## Certificates
 
--   Building Web Applications using PHP & MySQL - Mahara-Tech (Acquired: June 2024)
+-   [The Principles of Writing Clean Code - Mahara-Tech](https://drive.google.com/file/d/1GSd3VTGd07dzC6SCDwHYHKTLCG31gILB/view?usp=drive_link) (Acquired: June 2024)
+-   [Building Web Applications using PHP & MySQL - Mahara-Tech](https://drive.google.com/file/d/1ot76v2H3Zcf3rqST7tAxV7jUmv0zI4Dc/view?usp=sharing) (Acquired: June 2024)
 -   [CSS (Basic) - HackerRank](https://www.hackerrank.com/certificates/f78c00888d0f) (Acquired: June 2024)
--   Typescript Fundamentals - Mahara-Tech (Acquired: April 2024)
+-   [Typescript Fundamentals - Mahara-Tech](https://drive.google.com/file/d/1GT2b8LnQQJz7fUJ_aGhWMvXhpgmleE4h/view?usp=drive_link) (Acquired: April 2024)
 -   12-Levels English Course - Continue Academy (Acquired: October 2023)
 -   [Python (Basic) - HackerRank](https://www.hackerrank.com/certificates/d4c867f6386c) (Acquired: November 2023)
 -   [Problem Solving (Basic) - HackerRank](https://www.hackerrank.com/certificates/c7ab7d3eea2a) (Acquired: November 2023)
--   Getting Started as a Freelancer (Upwork) - Mahara-Tech (Acquired: June 2022)
--   Learn HTML & CSS - Mahara-Tech (Acquired: June 2022)
--   Cybersecurity Fundamentals - IBM SkillsBuild (Acquired: November 2022)
--   Freelancing Basics - Mahara-Tech (Acquired: May 2022)
--   Python Programming Basics - Mahara-Tech (Acquired: April 2022)
+-   [Getting Started as a Freelancer (Upwork) - Mahara-Tech](https://drive.google.com/file/d/1qvQkTihjFkpDqA_o7T141PkUe5mCrF5V/view?usp=drive_link) (Acquired: June 2022)
+-   [Learn HTML & CSS - Mahara-Tech](https://drive.google.com/file/d/1-4PzUCMqMOJ6_paC2zpgHFjJMuuGjHPo/view?usp=drive_link) (Acquired: June 2022)
+-   [Cybersecurity Fundamentals - IBM SkillsBuild](https://drive.google.com/file/d/1IFCwwXOjOeaRPbgzVhLZzEz58kZET7ma/view?usp=drive_link) (Acquired: November 2022)
+-   [Freelancing Basics - Mahara-Tech](https://drive.google.com/file/d/1Gwqr2bFsxu0VrqlN5r_kJsNXytOM9qcU/view?usp=drive_link) (Acquired: May 2022)
+-   [Python Programming Basics - Mahara-Tech](https://drive.google.com/file/d/1jf-zaS5TESDun3y8tuZ4Aot7t-3rrILt/view?usp=drive_link) (Acquired: April 2022)
 
 ---
 
