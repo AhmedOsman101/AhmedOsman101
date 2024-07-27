@@ -35,12 +35,17 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 
 -   **HTML**
 -   **CSS**: [TailwindCss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/)
--   **JavaScript**: [React](https://react.dev/), [Vue](https://vuejs.org/), [Alpine](https://alpinejs.dev/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [Typescript](https://www.typescriptlang.org/), [JasmineJs](https://jasmine.github.io/)
+-   **JavaScript**: [React](https://react.dev/), [Vue](https://vuejs.org/), [Alpine](https://alpinejs.dev/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [JasmineJs](https://jasmine.github.io/), , [InertiaJs](https://inertiajs.com/)
 
 ### Backend Development
 
 -   [**NodeJs**](https://nodejs.org/en): [Express](https://expressjs.com/), [Sequelize ORM](https://sequelize.org/)
--   **PHP**: [Laravel](https://laravel.com/), [Livewire](https://livewire.laravel.com/), [Breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze), [Jetstream](https://jetstream.laravel.com/), [Inertia](https://inertiajs.com/), [Sanctum](https://laravel.com/docs/11.x/sanctum), [Filament](https://filamentphp.com/)
+-   **PHP**
+
+### Fullstack Development
+
+- **JavaScript**: [NextJs](https://nextjs.org/), [Typescript](https://www.typescriptlang.org/)
+- **PHP**: [Laravel](https://laravel.com/), [Livewire](https://livewire.laravel.com/), [Jetstream](https://jetstream.laravel.com/), [Filament](https://filamentphp.com/)
 
 ### Databases
 
@@ -58,7 +63,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 -   Data Structures and Algorithms
 -   Object-Oriented Programming (OOP)
 -   Design Patterns
--   JSON, XML
+-   JSON, XML, JSDoc
 -   RESTful APIs
 -   **[Powershell Scripting](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4)**
 -   **[Bash Scripting](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#What-is-Bash_003f)**
@@ -102,7 +107,7 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 
 ## Languages
 
--   **Arabic**: Native (Classical Arabic writer and speaker)
+-   **Arabic**: Native
 -   **English**: Proficient
 
 ---
@@ -116,7 +121,8 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 -   **Role:** Main Contributor
 -   **Technologies:** React, Context API, Node.js, Sequelize ORM, Tailwind CSS
 -   **Description:** Developed the majority of the frontend logic and state management with custom hooks and the Context API. Implemented the product details page and handled backend migrations using Sequelize ORM. Also contributed to minor frontend design fixes.
--   **Source Code:** [GitHub](https://github.com/YassenMohamedRashad/Metromart)
+-   **Frontend Source Code:** [GitHub](https://github.com/YassenMohamedRashad/Metromart)
+- **Backend Source Code:** [GitHub](https://github.com/AhmedOsman101/MetroMartServer)
 
 **StudentClub Time Management Website**
 
@@ -125,7 +131,7 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 -   **Description:** Fully developed the backend and database using Laravel, and implemented the majority of frontend logic using Livewire and Blade templates. Created main layout and two pages, and integrated all components. Features include a Pomodoro page, leaderboard, team creation and management, profile editing, todo list, and calendar with email reminders.
 -   **Source Code:** [GitHub](https://github.com/AhmedOsman101/StudentClub)
 
-**Recycle Charity Website**
+**Recycling Website**
 
 -   **Role:** Main Contributor
 -   **Technologies:** HTML, CSS, JavaScript
