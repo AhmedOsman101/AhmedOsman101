@@ -36,6 +36,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 -   **HTML**
 -   **CSS**: [TailwindCss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/)
 -   **JavaScript**: [React](https://react.dev/), [Vue](https://vuejs.org/), [Alpine](https://alpinejs.dev/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [JasmineJs](https://jasmine.github.io/), , [InertiaJs](https://inertiajs.com/)
+- **PHP**: [Livewire](https://livewire.laravel.com/)
 
 ### Backend Development
 
@@ -45,7 +46,7 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ### Fullstack Development
 
 - **JavaScript**: [NextJs](https://nextjs.org/), [Typescript](https://www.typescriptlang.org/)
-- **PHP**: [Laravel](https://laravel.com/), [Livewire](https://livewire.laravel.com/), [Jetstream](https://jetstream.laravel.com/), [Filament](https://filamentphp.com/)
+- **PHP**: [Laravel](https://laravel.com/),  [Jetstream](https://jetstream.laravel.com/), [Filament](https://filamentphp.com/)
 
 ### Databases
 
