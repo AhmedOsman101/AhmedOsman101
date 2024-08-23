@@ -180,16 +180,16 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 
 ---
 
-<h2>📊 Github Stats and Activity</h2>
+## 📊 Github Stats and Activity
 
-<h3>🔥 Streak Stats</h3>
+### 🔥 Streak Stats
 
 <p>
-    <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="ahmed's streak" src="https://streak-stats.demolab.com/?user=AhmedEweesKorany&theme=monokai-metallian&hide_border=true"/>
+    <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="ahmed's streak" src="https://streak-stats.demolab.com/?user=AhmedOsman101&theme=monokai-metallian&hide_border=true"/>
 </p>
 
-<h3>💻 GitHub Profile Stats</h3>
+### 💻 GitHub Profile Stats
 
-<img alt="Ahmed's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=AhmedEweesKorany&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+<img alt="Ahmed's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=AhmedOsman101&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
 
-<img alt="Avinash's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=AhmedEweesKorany&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/> 
+<img alt="Avinash's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=AhmedOsman101&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/> 
