@@ -1,9 +1,5 @@
 # Ahmad Ali Othman
 
-**Job Title:** Full-Stack Developer
-
----
-
 ## Objective
 
 Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript frameworks, seeking to leverage my skills and experience to contribute to innovative projects and grow within a dynamic development team. Passionate about building efficient, scalable, and user-friendly applications.
@@ -181,3 +177,19 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 -   **Technologies:** Laravel, Livewire, Filament, Tailwind CSS
 -   **Description:** Developed a full-stack solution for an IT support company. Features include user registration and login, request management, service exploration, and an admin panel for managing services, categories, requests, and users. This Website was a part of Task 2 in BTEC International Level 3 IT Pearson Set Assignment Unit 25 (Full-Stack Development).
 -   **Source Code:** [GitHub](https://github.com/AhmedOsman101/Unit_25_Task_Two)
+
+---
+
+<h2>📊 Github Stats and Activity</h2>
+
+<h3>🔥 Streak Stats</h3>
+
+<p>
+    <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="ahmed's streak" src="https://streak-stats.demolab.com/?user=AhmedEweesKorany&theme=monokai-metallian&hide_border=true"/>
+</p>
+
+<h3>💻 GitHub Profile Stats</h3>
+
+<img alt="Ahmed's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=AhmedEweesKorany&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+
+<img alt="Avinash's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=AhmedEweesKorany&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/> 
