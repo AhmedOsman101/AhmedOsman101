@@ -182,14 +182,6 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 
 ## 📊 Github Stats and Activity
 
-### Visitor's Count:
-
-<a align="center">
-
-  ![VisitorCount](https://profile-counter.glitch.me/{AhmedOsman101}/count.svg)  
-</a>
-
-
 ### 🔥 Streak Stats
 
 <p>
@@ -200,4 +192,5 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 
 <img alt="Ahmed's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=AhmedOsman101&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
 
+### 🌐 Top languages
 <img alt="Avinash's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=AhmedOsman101&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/> 
