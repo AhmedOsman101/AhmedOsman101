@@ -20,24 +20,26 @@ Aspiring Full-Stack Developer with a strong foundation in Laravel and JavaScript
 ## Education
 
 -   **WE School for Applied Technology, Nasr City**
-    _(graduated 2024)_
+    _(Graduated 2024)_
     _Diploma in Applied Technology_
-
+- **New Cairo Technological University**
+  _(2024 - Now)_
+  _Bachelor in Information Technology_
 ---
 
 ## Skills
 
 ### Frontend Development
 
--   **HTML**
--   **CSS**: [TailwindCss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/)
--   **JavaScript**: [React](https://react.dev/), [Vue](https://vuejs.org/), [Alpine](https://alpinejs.dev/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [JasmineJs](https://jasmine.github.io/), , [InertiaJs](https://inertiajs.com/)
-- **PHP**: [Livewire](https://livewire.laravel.com/)
+- **HTML**
+- **CSS**: [TailwindCss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/)
+- **JavaScript**: [React](https://react.dev/), [Vue](https://vuejs.org/), [Alpine](https://alpinejs.dev/), [Pinia](https://pinia.vuejs.org/), [Jōtai](https://jotai.org/), [JasmineJs](https://jasmine.github.io/),  [InertiaJs](https://inertiajs.com/)
+-  **PHP**: [Livewire](https://livewire.laravel.com/)
 
 ### Backend Development
 
--   [**NodeJs**](https://nodejs.org/en): [Express](https://expressjs.com/), [Sequelize ORM](https://sequelize.org/)
--   **PHP**
+- [**NodeJs**](https://nodejs.org/en): [Express](https://expressjs.com/), [Sequelize ORM](https://sequelize.org/)
+- **PHP**
 
 ### Fullstack Development
 
@@ -185,12 +187,12 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 ### 🔥 Streak Stats
 
 <p>
-    <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="ahmed's streak" src="https://streak-stats.demolab.com/?user=AhmedOsman101&theme=monokai-metallian&hide_border=true"/>
+    <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="ahmed's streak" src="https://streak-stats.demolab.com/?user=AhmedOsman101&theme=tokyonight&hide_border=true"/>
 </p>
 
 ### 💻 GitHub Profile Stats
 
-<img alt="Ahmed's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=AhmedOsman101&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+<img alt="Ahmed's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=AhmedOsman101&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" height="192px"/>
 
-### 🌐 Top languages
-<img alt="Avinash's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=AhmedOsman101&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/> 
+### 🌐  Top languages
+<img alt="Avinash's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=AhmedOsman101&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook,Roff" height="192px"/> 
