@@ -180,7 +180,7 @@ _Student Volunteer at [Life Makers Foundation](https://lifemakers.org/) (Decembe
 
 ---
 
-## 📊 Github Stats and Activity
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Github Stats and Activity
 
 ### 🔥 Streak Stats
 
